@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrimMod - Minecraft Mod</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: #111 url('path_to_background_image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        header {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        header h1 {
+            font-size: 4em;
+            color: #c00;
+            margin: 0;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.5em;
+            color: #ddd;
+            margin-top: 10px;
+        }
+        .download-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background: #c00;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+        .download-button:hover {
+            background: #a00;
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: #777;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        footer a {
+            color: #c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GrimMod</h1>
+        <p>Dark adventures await in the world of Minecraft. Immerse yourself in a realm of thrilling new elements and challenges.</p>
+        <a href="path_to_download_file.zip" class="download-button" download>Download Now</a>
+    </header>
+    
+    <footer>
+        <p>&copy; 2024 GrimMod. All rights reserved. <a href="#">Contact</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
